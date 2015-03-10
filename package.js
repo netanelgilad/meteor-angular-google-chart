@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.versionsFrom('METEOR@0.9.0.1');
-    api.use('urigo:angular', 'client');
+    api.use('urigo:angular@0.7.2', 'client');
     api.addFiles('ng-google-chart.js', 'client');
 });
 
