@@ -2,7 +2,8 @@ Package.describe({
     summary: "ng-google-chart for meteor ",
     version: "0.0.2",
     git: "https://github.com/dotansimha/meteor-angular-google-chart",
-    name: "dotansimha:angular-google-chart"
+    name: "dotansimha:angular-google-chart",
+	documentation: null
 });
 
 Package.onUse(function (api) {
