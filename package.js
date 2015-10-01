@@ -1,6 +1,6 @@
 Package.describe({
     summary: "ng-google-chart for meteor ",
-    version: "0.0.2",
+    version: "0.0.11",
     git: "https://github.com/dotansimha/meteor-angular-google-chart",
     name: "dotansimha:angular-google-chart",
 	documentation: null
@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.versionsFrom('METEOR@0.9.0.1');
-    api.use('urigo:angular@0.7.2', 'client');
+    api.use('angular:angular@1.2.9', 'client');
     api.addFiles('ng-google-chart.js', 'client');
 });
 
